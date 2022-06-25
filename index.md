@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+<head>
+    <title>    </title>
+</head>
+<body>
+<div id="Intro">
+<h2> Visitor's Form </h2>
+<h3>Worshiping with us for the first time? <br /> We'd love to get to know you!</h3>
+</div>
 
-You can use the [editor on GitHub](https://github.com/Shunlexxi/projects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shunlexxi/projects/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!- Intro ends, form code begins-->
+<form action="www.mygistadress.blogspot.com" method="GET">
+<label id="name"> First Name: </label>
+<input name="Name" type="text" 
+placeholder="First Name"/> 
+    <br /><br />
+<label>    Last Name:</label>
+<input nane="name" type="text" placeholder="Surname"/>
+    <br/><br />
+<label> Gender:</label>
+<input type="radio" name="gender"
+valve="Male"/> Male
+<input type="radio" name="gender"
+valve="Female"/> Female <br /> 
+    <br />
+    <label> D.O.B: </label>
+<input type="text"/>
+    <br /><br />
+<label> Home Address: </label>
+<input type="text"/>
+      <br /><br />
+    <label> Telephone: </label>
+<input type="tel"/>
+    <br /><br />
+    <label> WhatsApp Number: </label>
+<input type="tel"/>
+    <br /><br />
+<label> Parent's/Guardian's Number: </label>
+<input type="tel"/>
+    <br /><br />
+<label> Educational Stage: </label>
+<input type="text"/>
+    <br /><br/>
+<label> What do you like about the church/Service? </label>
+<input type="text"/>
+    <br /><br />
+<label> What do you dislike about the church/Service? </label>
+<input type="text"/>
+<br /><br />
+<input type="submit" name="submit">
+</body>
+</form>
+    
